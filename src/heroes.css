@@ -1,0 +1,72 @@
+#heroes{
+    height:100%;
+    width:100%;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    box-sizing:border-box;
+    padding:10px 20px;
+}
+
+
+.Hero2{
+    height:150px;
+    width:100%;
+    border-radius:15px;
+    margin-bottom:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:black;
+    padding:10px 20px;
+    box-sizing:border-box;
+}
+
+.HeroName2{
+    padding:10px;
+    background-color:black;
+    border-radius:10px;
+    color:white;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:48px;
+}
+
+.HeroLogo2{
+   height:100%;
+   width:200px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   overflow-x:hidden;
+}
+
+.HeroLogo2 img{
+    width:auto;
+    height:100%;
+}
+
+#goBackToHome2{
+    background-color:black;
+    padding:10px;
+    border-radius:10px;
+    color:white;
+    display:inline-block;
+    margin-bottom:10px;
+    box-sizing:border-box;
+}
+
+#goBackToHome2:hover{
+    border:3px solid white;
+}
+
+.Hero2:hover{
+    border:3px solid white;
+}
+
+#heroesLink{
+    text-decoration:none;
+}
+
+

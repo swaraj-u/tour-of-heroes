@@ -1,0 +1,35 @@
+#HomeNavbar{
+    height:8vh;
+    width:100%;
+    border-radius:10px;
+    background-color:rgba(200, 201, 204,0.2);
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    padding:5px 10px;
+    box-sizing:border-box;
+}
+#HomeNavbar:hover{
+    background-color:rgba(200, 201, 204,0.5);
+}
+
+.options{
+    padding:10px;
+    color:white;
+    background-color:black;
+    border-radius:10px;
+    margin-right:10px;
+    
+}
+
+#heroesLink{
+    text-decoration:none;
+}
+
+#dashboardLink{
+    text-decoration:none;
+}
+
+.options:hover{
+    border:3px solid white;
+}
