@@ -34,7 +34,7 @@
 
 .HeroLogo{
    height:100%;
-   width:180px;
+   width:150px;
    display:flex;
    justify-content:center;
    align-items:center;
@@ -62,6 +62,15 @@
 
 .Hero:hover{
     border:3px solid white;
+}
+
+@media (max-width:420px){
+    .HeroName{
+        font-size:36px;
+    }
+    .HeroLogo{
+        display:none;
+    }
 }
 
 

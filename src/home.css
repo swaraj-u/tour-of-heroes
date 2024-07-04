@@ -28,6 +28,16 @@
     3px 3px 0 black;  
 }
 
+@media (max-width:530px){
+    #heading{
+        font-size:80px;
+    }
+}
+@media (max-width:412px){
+    #heading{
+        font-size:60px;
+    }
+}
 
 
 
