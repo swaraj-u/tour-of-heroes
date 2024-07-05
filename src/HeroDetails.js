@@ -21,7 +21,7 @@ const HeroDetails = ({nameArray, setNameArray, imageArray}) => {
     <div id="heroDetails">
       <div id="headingDetail">HERO'S NAME: { nameArray[id] }</div>
       <form id="nameForm" onSubmit={HandleSubmit}>
-        <label>Change Name: </label>
+        <label>Change Name: </label> <br/>
         <input type="text" value={ nameArray[id] } onChange={HandleChange}/>
         <button>Submit</button>
       </form>
