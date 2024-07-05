@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tour-of-heroes/static/css/main.2d5e4c6b.css",
-    "main.js": "/tour-of-heroes/static/js/main.cf4e828d.js",
+    "main.css": "/tour-of-heroes/static/css/main.86226989.css",
+    "main.js": "/tour-of-heroes/static/js/main.52ff5152.js",
     "index.html": "/tour-of-heroes/index.html",
-    "main.2d5e4c6b.css.map": "/tour-of-heroes/static/css/main.2d5e4c6b.css.map",
-    "main.cf4e828d.js.map": "/tour-of-heroes/static/js/main.cf4e828d.js.map"
+    "main.86226989.css.map": "/tour-of-heroes/static/css/main.86226989.css.map",
+    "main.52ff5152.js.map": "/tour-of-heroes/static/js/main.52ff5152.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d5e4c6b.css",
-    "static/js/main.cf4e828d.js"
+    "static/css/main.86226989.css",
+    "static/js/main.52ff5152.js"
   ]
 }
