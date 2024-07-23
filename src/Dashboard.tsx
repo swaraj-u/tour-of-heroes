@@ -1,7 +1,12 @@
 import './dashboard.css';
 import { Link } from 'react-router-dom';
 
-const Dashboard = ({nameArray, imageArray}) => {
+interface Props{
+    nameArray:string[],
+    imageArray:string[]
+}
+
+const Dashboard: React.FC<Props> = ({nameArray, imageArray}) => {
     return ( <div id="dashboard">
         <Link id="goBackToHomeLink" to="/home"><div id="goBackToHome">Back</div></Link>
         {nameArray.filter((hero, index) => index<4)

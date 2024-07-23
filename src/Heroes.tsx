@@ -1,8 +1,13 @@
 import './heroes.css';
 import { Link } from 'react-router-dom';
+import React from 'react';
 
-
-const Heroes = ({nameArray, imageArray}) => {
+interface Props {
+    nameArray: string[],
+    imageArray: string[]
+}
+// const Heroes = ({nameArray, imageArray}) => {
+const Heroes: React.FC<Props> = ({nameArray, imageArray}) => {
 
     
 

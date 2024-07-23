@@ -55,10 +55,14 @@
     display:inline-block;
     margin-bottom:10px;
     box-sizing:border-box;
+    border:2px solid white;
+    transition:all 0.5s;
 }
 
 #goBackToHome2:hover{
-    border:3px solid white;
+    color:black;
+    background-color:white;
+    border:2px solid black;
 }
 
 .Hero2:hover{

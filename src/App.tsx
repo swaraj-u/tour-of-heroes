@@ -22,7 +22,7 @@ function App() {
     "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f5c7f39e-6019-4372-9030-d351ed796b5f/dddve9s-b73f4e90-9201-43a6-94fe-016df547e25a.jpg/v1/fill/w_1024,h_576,q_75,strp/batman_logo__metal__by_danielbeadle_dddve9s-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZjVjN2YzOWUtNjAxOS00MzcyLTkwMzAtZDM1MWVkNzk2YjVmXC9kZGR2ZTlzLWI3M2Y0ZTkwLTkyMDEtNDNhNi05NGZlLTAxNmRmNTQ3ZTI1YS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.cXDWncrw3Z3VwWKW0ShpNU8F98SoYtHZHOwt5wwG5eQ"
 ];
 
-const [nameArray, setNameArray] = useState(nameArrayDefault.map(name => name));
+const [nameArray, setNameArray] = useState<string[]>(nameArrayDefault.map(name => name));
 
   return (
     <Router basename="/tour-of-heroes">
