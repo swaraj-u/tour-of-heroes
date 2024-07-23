@@ -69,22 +69,22 @@
 }
 
 @media (max-width:420px){
-    .HeroLogo2{
+    .HeroLogo{
         display:none;
     }
 }
 
 @media (max-width:653px){
-    .HeroName2{
+    .HeroName{
         font-size:36px;
     }
 }
 
 @media (max-width:573px){
-    .HeroName2{
+    .HeroName{
         font-size:36px;
     }
-    .HeroLogo2{
+    .HeroLogo{
         width:180px;
     }
 }
