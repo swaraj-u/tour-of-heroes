@@ -28,12 +28,11 @@ const [nameArray, setNameArray] = useState<string[]>(nameArrayDefault.map(name =
     <Router basename="/tour-of-heroes">
     <div className="App">
       <Routes>
-      <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard nameArray={nameArray} imageArray={imageArray} />} />
         <Route path="/heroes" element={<Heroes nameArray={nameArray} imageArray={imageArray} />} />
-       
         <Route path="/heroes/hero/:id" element={<HeroDetails nameArray={nameArray} setNameArray={setNameArray} imageArray={imageArray} />} />
+        <Route path="/" element={<Home />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>
