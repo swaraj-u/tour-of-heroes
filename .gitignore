@@ -12,7 +12,7 @@
 /build
 
 #package.json
-/package.json
+package.json
 
 # misc
 .DS_Store
